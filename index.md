@@ -1,6 +1,6 @@
 ## Post a dish
 
-The Makefile script requires you to `git add src/dish.md`, `git commit -m "dish title"` and `git push` the markdown article as it needs to log the author and creation date via git commits to build it, otherwise it won't appear on the site.
+The Makefile script requires you to `git add src/dish.md`, `git commit -a -m "dish title"` and `git push` the markdown article as it needs to log the author and creation date via git commits to build it, otherwise it won't appear on the site.
 
 ## Update (build) the site
 
