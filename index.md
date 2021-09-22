@@ -12,6 +12,10 @@ The first time you will need to apply css changes
 make deploy
 ```
 
+## Publish a dish
+
+The Makefile script requires you to actually `git commit` and `git push` the `.md` article as it needs to log the author and creation date to build it.
+
 ## Tables
 
 Ingridients and their nutrition facts table can be converted to markdown with [https://tabletomarkdown.com/convert-spreadsheet-to-markdown/](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
