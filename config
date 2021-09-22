@@ -3,4 +3,4 @@ BLOG_REMOTE:=blog
 BLOG_DATE_FORMAT_INDEX:=%F
 BLOG_DATE_FORMAT:=%F
 BLOG_SRC:=src
-BLOG_URL_ROOT:=http://localhost/blog/index.html
+BLOG_URL_ROOT:=http://localhost:3000/cook
