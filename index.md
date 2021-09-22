@@ -14,7 +14,7 @@ make deploy
 
 ## Publish a dish
 
-The Makefile script requires you to actually `git commit` and `git push` the `.md` article as it needs to log the author and creation date to build it.
+The Makefile script requires you to actually `git add src/dish.md`, `git commit -m "dish title"` and `git push` the article as it needs to log the author and creation date to build it, otherwise it won't appear on the site.
 
 ## Tables
 
