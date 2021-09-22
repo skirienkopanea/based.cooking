@@ -20,6 +20,14 @@ make deploy
 
 If `make` doesn't work you'll probably need to install missing programs, such as `markdown`. Installing the latest version is often the best choice, sometimes the installing package with the latest version doesn't have the same name as the program, but it does contain it if the package manager shows it in the list.
 
+To apply additional css changes you'll actually need to remove the blog/style.css file and then deploy again. Alternatively you can run:
+
+```
+make clean
+make build
+make deploy
+```
+
 ## Tables
 
 Ingridients and their nutrition facts table can be converted to markdown with [https://tabletomarkdown.com/convert-spreadsheet-to-markdown/](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
