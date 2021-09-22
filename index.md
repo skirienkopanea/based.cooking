@@ -4,17 +4,21 @@ The Makefile script requires you to `git add src/dish.md`, `git commit -a -m "di
 
 ## Update (build) the site
 
-Go to the `based.cooking` directory and run (on linux):
+Go to the `based.cooking` directory and run (on linux) the command below.
 
 ```
 make build
 ```
 
-The first time you will need to apply css changes
+The first time you will need to apply css changes. You also need to deploy to upload pictures
 
 ```
 make deploy
 ```
+
+### Troubleshooting
+
+If `make` doesn't work you'll probably need to install missing programs, such as `markdown`. Installing the latest version is often the best choice, sometimes the installing package with the latest version doesn't have the same name as the program, but it does contain it if the package manager shows it in the list.
 
 ## Tables
 
