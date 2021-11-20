@@ -4,7 +4,7 @@ The Makefile script requires you to `git add src/dish.md`, `git commit -a -m "di
 
 ## Update (build) the site
 
-Go to the `based.cooking` directory and run (on linux) the command below.
+Go to the `food` directory and run the command below.
 
 ```
 make build
@@ -23,9 +23,9 @@ If `make` doesn't work you'll probably need to install missing programs, such as
 To apply additional css changes you'll actually need to remove the blog/style.css file and then deploy again. Alternatively you can run:
 
 ```
-make clean
-make build
-make deploy
+make clean;
+make build;
+make deploy;
 ```
 
 ## Tables
